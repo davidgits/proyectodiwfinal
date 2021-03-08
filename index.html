@@ -12,24 +12,31 @@
         <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
         <!-- Bootstrap CSS -->
+        <!-- <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+            crossorigin="anonymous"
+        /> -->
         <link rel="stylesheet" href="css/bootstrap.min.css" />
 
         <!-- MDB5 CSS -->
-        <link rel="stylesheet" href="css/mdb.min.css" />
-        <link rel="stylesheet" href="css/mdb.rtl.min.css">
+        <!-- <link rel="stylesheet" href="css/mdb.min.css" />
+        <link rel="stylesheet" href="css/mdb.rtl.min.css" /> -->
 
         <!-- Default CSS -->
         <link rel="stylesheet" href="css/style.css" />
 
-        <!-- Material Icons -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
     </head>
 
-    <body>
+    <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
         <header id="header">
             <!-- NAVIGATION START -->
             <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <div class="container-fluid">
+                    <!-- Toggler button -->
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -39,27 +46,31 @@
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
+                    <!-- Toggler icon -->
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    <!-- Navigation bar -->
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <!-- Inicio -->
                             <li class="nav-item">
-                                <a class="nav-link scrollto active" aria-current="page" href="#hero">Inicio</a>
+                                <a class="nav-link scrollto" aria-current="page" href="#hero">Inicio</a>
                             </li>
+                            <!-- Sobre mí -->
                             <li class="nav-item">
-                                <a class="nav-link scrollto" href="#about">Sobre mí</a>
+                                <a class="nav-link" href="#about">Sobre mí</a>
                             </li>
+                            <!-- Trabajos -->
                             <li class="nav-item">
-                                <a class="nav-link scrollto" href="#services">Servicios</a>
+                                <a class="nav-link" href="#services">Trabajos</a>
                             </li>
+                            <!-- Blog -->
                             <li class="nav-item">
-                                <a class="nav-link scrollto" href="#work">Works</a>
+                                <a class="nav-link" href="#blog">Blog</a>
                             </li>
+                            <!-- Contacto -->
                             <li class="nav-item">
-                                <a class="nav-link scrollto" href="#blog">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link scrollto" href="#contact">Contacto</a>
+                                <a class="nav-link" href="#contact">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -111,9 +122,9 @@
         <!-- ABOUT END -->
 
         <!-- SERVICE START -->
-        <div id="services" class="container-fluid mt-3 mb-5">
+        <div id="services" class="container-fluid mt-3 mb-5" >
             <div class="post-heading text-center">
-                <h3 class="display-4 font-weight-bold">Services</h3>
+                <h3 class="display-4 font-weight-bold">Mis trabajos</h3>
                 <hr class="w-50 mx-auto mb-5" />
             </div>
             <div class="row justify-content-center">
@@ -236,7 +247,7 @@
                 <!-- Section: Social media -->
                 <section class="mb-4">
                     <!-- Facebook -->
-                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="material-icons fab fa-facebook-f">facebook</i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-facebook" style="font-size: 2rem"></i></a>
 
                     <!-- Twitter -->
                     <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
